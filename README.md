@@ -4,7 +4,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 
 + Adjustable transparency/alpha
 + Compatibility with `Xresources` and `pywal` for dynamic colors
-+ Copy to clipboard (alt-shift-c)
++ Copy is alt-c, paste is alt-v or alt-p pastes from primary selection
 + Default font is system "mono" at 14pt, meaning the font will match your system font.
 + Hold alt and press either ↑/↓ or the vim keys k/j to move up/down in the terminal.
 + Shift+Mouse wheel will as well.
@@ -12,7 +12,7 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + Alt-PageUp and Alt-PageDown will do the same.
 + Zoom in/out with Alt+Shift+k/j or u/d for larger intervals.
 + Vertcenter
-+ Optional solarized colors (light and dark toggleable)
++ Default solarized colors without `pywal`
 + updated to latest version 0.8.1
 
 The following additional bindings were added before I forked this:
